@@ -1,4 +1,4 @@
-# password checker - take in a username and password and outputs the username and password length
+# password checker - take in a user 
 username = input('Enter username ')
 password = input('Enter password ')
 

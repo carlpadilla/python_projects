@@ -27,3 +27,19 @@ letters = ['a', 'b', 'c', 'd', 'x', 't', 'g']
 print(sorted(letters))  # sorts items in list and produces a new list.
 
 print(letters)
+
+# generates a list from 0-100
+print(list(range(101)))
+
+# join
+sentence = ' '.join(['hi', 'my', 'name', 'is', 'carl'])
+print(sentence)
+
+# list unpacking
+a, b, c, *other, d = 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+print(a)
+print(b)
+print(c)
+print(other)
+print(d)
