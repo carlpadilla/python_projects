@@ -20,6 +20,11 @@ my_list = [
 
 ]
 
+user = dict(name='Carlo')
+
 print(dictionary)
 print(dictionary['b'])
 print(my_list[1]['a'][2])
+
+print(dictionary.get('age', 55))
+print(user)
