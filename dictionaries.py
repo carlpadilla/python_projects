@@ -28,3 +28,4 @@ print(my_list[1]['a'][2])
 
 print(dictionary.get('age', 55))
 print(user)
+print('a' in dictionary)
