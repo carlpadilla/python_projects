@@ -1,3 +1,5 @@
+# wizard check
+
 is_magician = True
 is_expert = False
 
