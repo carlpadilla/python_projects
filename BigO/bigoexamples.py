@@ -53,3 +53,4 @@ def func_quad(lst):
 
 print('Quadratic Time')
 func_quad(lst)
+
