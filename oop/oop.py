@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # oop
 
 
@@ -25,3 +26,20 @@ print(player1.greet)
 # print(player2.attack)
 # print(player1.membership)
 # print(player1.greet())
+=======
+# oop
+
+
+class PlayerCharacter:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def run(self):
+        print('run')
+
+
+player1 = PlayerCharacter('Carl', 34)
+
+print(player1)
+>>>>>>> 678d86ff6a5e3947f7c799d5af16b249883c0c06
