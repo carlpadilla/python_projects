@@ -1,7 +1,5 @@
 is_old = True
-is_licensed = True
+is_licensed = False
 
-if is_old and is_licensed:
-    print('You are old enough to drive!')
-else:
-    print('you are not of age!')
+if is_old:
+    print('You are old enough to drive!git')
