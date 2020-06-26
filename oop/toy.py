@@ -22,3 +22,14 @@ print(action_figure.__str__())
 print(str(action_figure))
 print(action_figure())
 print(action_figure['name'])
+
+
+class SuperList(list):
+    def __len__(self):
+        return 1000
+
+SuperList1 = SuperList()
+print(len(SuperList1))
+SuperList1.append(5)
+print(SuperList1[0])
+print(issubclass(SuperList, list))
