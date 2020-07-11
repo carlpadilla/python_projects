@@ -15,6 +15,9 @@ print(list(map(uppercase, my_pets)))
 my_strings = ['a', 'b', 'c', 'd', 'e']
 my_numbers = [5, 4, 3, 2, 1]
 
+sorted_num = sorted(my_numbers)
+
+print(list(zip(my_strings, sorted_num)))
 
 # 3 Filter the scores that pass over 50%
 # scores=[73, 20, 65, 19, 76, 100, 88]
