@@ -20,7 +20,14 @@ sorted_num = sorted(my_numbers)
 print(list(zip(my_strings, sorted_num)))
 
 # 3 Filter the scores that pass over 50%
-# scores=[73, 20, 65, 19, 76, 100, 88]
+scores = [73, 20, 65, 19, 76, 100, 88]
+
+
+def check_if_over_50(i):
+    return i > 50
+
+
+print(list(filter(check_if_over_50, scores)))
 
 
 # 4 Combine all of the numbers that are in a list on this file using reduce (my_numbers and scores). What is the total?
