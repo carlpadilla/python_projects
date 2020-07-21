@@ -15,8 +15,17 @@ def performance(fn):
 
 @performance
 def long_time():
-    for i in range(1000000):
+    print('long_time_1')
+    for i in range(100000000):
+        i * 5
+
+
+@performance
+def long_time2():
+    print('long_time_2')
+    for i in list(range(100000000)):
         i * 5
 
 
 long_time()
+long_time2()
