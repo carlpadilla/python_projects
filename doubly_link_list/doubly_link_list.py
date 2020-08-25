@@ -5,6 +5,7 @@ class DoublyLinkedList(object):
         self.next_node = None
         self.prev_node = None
 
+# todo build out further
 
 a = DoublyLinkedList(1)
 b = DoublyLinkedList(2)
